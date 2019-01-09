@@ -1,0 +1,2 @@
+model_checkpoint_path: "Z:\\Desktop\\MMT\\models/nlu\\default\\chatter\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "Z:\\Desktop\\MMT\\models/nlu\\default\\chatter\\intent_classifier_tensorflow_embedding.ckpt"

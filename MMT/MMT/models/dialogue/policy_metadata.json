@@ -1,0 +1,46 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "date"
+      ]
+    },
+    "action_save_origin": {
+      "slots": [
+        "from"
+      ]
+    },
+    "action_save_destination": {
+      "slots": [
+        "to"
+      ]
+    },
+    "action_save_date": {
+      "slots": [
+        "date"
+      ]
+    },
+    "action_slot_reset": {
+      "slots": []
+    },
+    "action_restart": {
+      "slots": []
+    },
+    "utter_unclear": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.11.6",
+  "python": "3.6.6",
+  "max_histories": [
+    10,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ]
+}
